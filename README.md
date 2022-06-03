@@ -6,6 +6,29 @@ I displayed the updated "server" file on initial web page with web links to to t
 
 I loaded the initial web page from a file.
 
+#### index.html:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Coinage</title>
+
+  <style>
+  </style>
+</head>
+
+<body>
+    <h1>Welcome to Coinage!</h1>
+    <ul>
+        <li><a href="/coin?denom=25&count=3">3 x 25 coin = 75</a></li>
+        <li><a href="/coins?option=1">Option 1 = 35</a></li>
+        <li><a href="/coins?option=2">Option 2 = 57</a></li>
+        <li><a href="/coins?option=3">Option 3 = 57 (Extra Credit)</a></li>
+    </ul>
+</body>
+</html>
+```
 #### p3-module.js:
 ```javascript
 /*
