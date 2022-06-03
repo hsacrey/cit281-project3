@@ -9,8 +9,9 @@ I loaded the initial web page from a file.
 ### Primary concepts: breaking a project into manageable components, creating and using code modules, refactoring using modern JavaScript syntax, web server Node.js JavaScript code using VSCode, Fastify with the GET verb, routes, and query parameters, loading a file and using it as a web page
 
 #### index.html:
-```
-<!--
+```html
+<!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8">
   <title>Coinage</title>
@@ -27,7 +28,8 @@ I loaded the initial web page from a file.
         <li><a href="/coins?option=2">Option 2 = 57</a></li>
         <li><a href="/coins?option=3">Option 3 = 57 (Extra Credit)</a></li>
     </ul>
-</body> -->
+</body>
+</html>
 ```
 #### p3-module.js:
 ```javascript
