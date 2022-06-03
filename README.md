@@ -6,6 +6,8 @@ I displayed the updated "server" file on initial web page with web links to to t
 
 I loaded the initial web page from a file.
 
+### Primary concepts: breaking a project into manageable components, creating and using code modules, refactoring using modern JavaScript syntax, web server Node.js JavaScript code using VSCode, Fastify with the GET verb, routes, and query parameters, loading a file and using it as a web page
+
 #### index.html:
 ```html
 <!DOCTYPE html>
