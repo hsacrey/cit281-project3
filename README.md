@@ -10,7 +10,6 @@ I loaded the initial web page from a file.
 
 #### index.html:
 ```javascript
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
