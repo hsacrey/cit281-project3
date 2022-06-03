@@ -36,7 +36,7 @@ I loaded the initial web page from a file.
     Name: Hunter Sacrey
 */
 
-//Checks to see if coin value is [1, 5, 10, 25, 50, 100]. If it doesn't match any of those then it's invalid. COMPLETE
+//Checks to see if coin value is [1, 5, 10, 25, 50, 100]. If it doesn't match any of those then it's invalid.
 function validDenomination(coin){
     return ([1, 5, 10, 25, 50, 100].indexOf(coin) !== -1) ? true : false;
 }
