@@ -10,6 +10,7 @@ I loaded the initial web page from a file.
 
 #### index.html:
 ```
+<!--
 <head>
   <meta charset="utf-8">
   <title>Coinage</title>
@@ -26,7 +27,7 @@ I loaded the initial web page from a file.
         <li><a href="/coins?option=2">Option 2 = 57</a></li>
         <li><a href="/coins?option=3">Option 3 = 57 (Extra Credit)</a></li>
     </ul>
-</body>
+</body> -->
 ```
 #### p3-module.js:
 ```javascript
